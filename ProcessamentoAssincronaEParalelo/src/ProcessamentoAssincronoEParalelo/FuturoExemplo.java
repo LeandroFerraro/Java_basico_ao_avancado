@@ -1,7 +1,5 @@
 package ProcessamentoAssincronoEParalelo;
 
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -80,7 +78,7 @@ class Quarto extends Comodo{
     @Override
     List<Atividade> obterAfazeresDaCasa(){
 
-        /*ArrayList<Atividade> objeto = new ArrayList<>();
+        /*ArrayList<ProcessamentoAssincronoEParalelo.Atividade> objeto = new ArrayList<>();
         objeto.add(this::varrerOQuarto);
         objeto.add(this::getArrumarCama);
         objeto.add(this::arrumarGuardaRoupa);
