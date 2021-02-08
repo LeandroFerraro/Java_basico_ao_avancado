@@ -1,0 +1,13 @@
+package com.digitainovationone.stringbootconfig;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StringbootconfigApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StringbootconfigApplication.class, args);
+	}
+
+}

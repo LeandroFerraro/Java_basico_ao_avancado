@@ -1,3 +1,5 @@
+asd.java
+ asd
 InterfacesFuncionais/Suppliers.java
  InterfacesFuncionais.Pessoa
  InterfacesFuncionais.Suppliers
@@ -22,20 +24,7 @@ Paradgma_Funcional_Lambda_e_Recursividade/Iutabilidade.java
  Paradgma_Funcional_Lambda_e_Recursividade.Iutabilidade
 InterfacesFuncionais/Funcoes.java
  InterfacesFuncionais.Funcoes
-Paradgma_Funcional_Lambda_e_Recursividade/ComposicaoDeFuncoes.java
- Paradgma_Funcional_Lambda_e_Recursividade.ComposicaoDeFuncoes
 InterfacesFuncionais/Iteracoes.java
  InterfacesFuncionais.Iteracoes
-ProcessamentoAssincronoEParalelo/ThreadExemplo.java
- ProcessamentoAssincronoEParalelo.BarraDeCarregamento
- ProcessamentoAssincronoEParalelo.BarraDeCarregamento2
- ProcessamentoAssincronoEParalelo.GerarPDF
- ProcessamentoAssincronoEParalelo.ThreadExemplo
-ProcessamentoAssincronoEParalelo/FuturoExemplo.java
- ProcessamentoAssincronoEParalelo.Atividade
- ProcessamentoAssincronoEParalelo.Casa
- ProcessamentoAssincronoEParalelo.Comodo
- ProcessamentoAssincronoEParalelo.FuturoExemplo
- ProcessamentoAssincronoEParalelo.Quarto
-ProcessamentoAssincronoEParalelo/PararelStreamExemplo.java
- ProcessamentoAssincronoEParalelo.PararelStreamExemplo
+Paradgma_Funcional_Lambda_e_Recursividade/ComposicaoDeFuncoes.java
+ Paradgma_Funcional_Lambda_e_Recursividade.ComposicaoDeFuncoes
