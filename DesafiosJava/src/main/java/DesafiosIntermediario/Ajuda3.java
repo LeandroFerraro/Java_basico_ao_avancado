@@ -86,7 +86,19 @@ public class Ajuda3 {
                     if(maioresPalavras.get(i).equals(fraseFinal.get(j))){
                         char pontuar = maioresPalavras.get(i).charAt(0);
                         maioresPalavras.set(i, pontuar + ". = "+ maioresPalavras.get(i));
-                        fraseFinal.set(j, pontuar +".");
+                        boolean palavraPonto = fraseFinal.get(j).equals(fraseFinal.get(j).split("."));
+                        boolean palavraVirgula = fraseFinal.get(j).equals(fraseFinal.get(j).split(","));
+                        boolean palavraDoisPontos = fraseFinal.get(j).equals(fraseFinal.get(j).split(":"));
+                        boolean palavraPontoEVirgula = fraseFinal.get(j).equals(fraseFinal.get(j).split(":"));
+                        if(palavraPonto) {
+                            fraseFinal.set(j, pontuar +"."+".");
+                        }else if (palavraVirgula){
+                            fraseFinal.set(j, pontuar +"."+",");
+                        }else if (palavraDoisPontos){
+                            fraseFinal.set(j, pontuar +"."+":");
+                        }else if (palavraPontoEVirgula){
+                            fraseFinal.set(j, pontuar +"."+";");
+                        }
                     }
                 }
             }
